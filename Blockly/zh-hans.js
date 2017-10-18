@@ -416,9 +416,9 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.LISTS_INDEX_OF_INPUT_IN_LIST = Blockly.Msg.LISTS_INLIST;
 /** @export */ Blockly.Msg.PROCEDURES_DEFRETURN_COMMENT = Blockly.Msg.PROCEDURES_DEFNORETURN_COMMENT;
 
-/** @export */ Blockly.Msg.ACTIONS_GO_TITLE = "前进";
-/** @export */ Blockly.Msg.ACTIONS_TURN_LEFT_TITLE = "左转";
-/** @export */ Blockly.Msg.ACTIONS_TURN_RIGHT_TITLE = "右转";
+// /** @export */ Blockly.Msg.ACTIONS_GO_TITLE = "前进";
+// /** @export */ Blockly.Msg.ACTIONS_TURN_LEFT_TITLE = "左转";
+// /** @export */ Blockly.Msg.ACTIONS_TURN_RIGHT_TITLE = "右转";
 
 /** @export */ Blockly.Msg.MATH_HUE = "230";
 /** @export */ Blockly.Msg.LOOPS_HUE = "120";
@@ -431,5 +431,5 @@ goog.require('Blockly.Msg');
 
 /* ------------------------------------------------------------------- */
 
-/** @export */ Blockly.Msg.ACTIONS_HUE = "15";
+// /** @export */ Blockly.Msg.ACTIONS_HUE = "15";
 
