@@ -2371,7 +2371,7 @@ Blockly.Extensions.registerMixin("contextMenu_variableSetterGetter", Blockly.Con
 
 Blockly.Blocks.actions = {};
 Blockly.Constants.Actions = {};
-Blockly.Constants.Actions.HUE = 150;
+Blockly.Constants.Actions.HUE = 15;
 Blockly.Blocks.actions.HUE = Blockly.Constants.Actions.HUE;
 Blockly.defineBlocksWithJsonArray([{
   type: "go",
