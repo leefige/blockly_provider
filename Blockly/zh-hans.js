@@ -385,7 +385,7 @@ goog.require('Blockly.Msg');
 /** @export */ Blockly.Msg.TEXT_TRIM_TOOLTIP = "复制这段文字的同时删除两端多余的空格。";
 /** @export */ Blockly.Msg.TODAY = "今天";
 /** @export */ Blockly.Msg.UNDO = "撤销";
-/** @export */ Blockly.Msg.VARIABLES_DEFAULT_NAME = "项目";
+/** @export */ Blockly.Msg.VARIABLES_DEFAULT_NAME = "a";
 /** @export */ Blockly.Msg.VARIABLES_GET_CREATE_SET = "创建“设定%1”";
 /** @export */ Blockly.Msg.VARIABLES_GET_HELPURL = "https://github.com/google/blockly/wiki/Variables#get";  // untranslated
 /** @export */ Blockly.Msg.VARIABLES_GET_TOOLTIP = "返回此变量的值。";
