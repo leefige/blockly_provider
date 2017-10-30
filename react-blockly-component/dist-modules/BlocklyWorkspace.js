@@ -51,9 +51,13 @@ var BlocklyWorkspace = _react2.default.createClass({
 
   componentDidMount: function componentDidMount() {
     // TODO figure out how to use setState here without breaking the toolbox when switching tabs
-    this.state.workspace = Blockly.inject(this.refs.editorDiv, _extends({}, this.props.workspaceConfiguration || {}, {
+    const myWorkspace = Blockly.inject(this.refs.editorDiv, _extends({}, this.props.workspaceConfiguration || {}, {
       toolbox: _reactDom2.default.findDOMNode(this.refs.dummyToolbox)
     }));
+
+    window.workspace = myWorkspace;
+
+    this.state.workspace = myWorkspace;
 
     if (this.state.xml) {
       if (this.importFromXml(this.state.xml)) {
